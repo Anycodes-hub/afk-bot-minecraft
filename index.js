@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer')
 function createBot() {
   const bot = mineflayer.createBot({
     host: process.env.MC_HOST || "scholgroup.aternos.me",
-    port: parseInt(process.env.MC_PORT) || 25565,
+    port: parseInt(process.env.MC_PORT) || 59561,
     username: process.env.MC_USERNAME || "AFK_Bot"
   })
 
